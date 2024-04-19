@@ -38,6 +38,7 @@ public class RoomClrApplication {
 		};
 	}
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(RoomClrApplication.class, args);
 	}
