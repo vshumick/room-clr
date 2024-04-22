@@ -34,6 +34,20 @@ public class RoomClrApplication {
 			rooms.getBody().forEach(room->{
 				LOG.info(room.toString());
 			});
+			/*String val;
+			for (int i = 1; i <= 100; i++) {
+				val = "";
+				if (i % 3 == 0) {
+					val += "Fizz";
+				}
+				if (i % 5 == 0) {
+					val += "Buzz";
+				}
+				if (val.isEmpty()) {
+					val = String.valueOf(i);
+				}
+				LOG.info(val);
+			}*/
 			LOG.info("Finishing CLR application");
 		};
 	}
